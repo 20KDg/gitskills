@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <!-- secondarynamenode的http服务器地址和端口 -->
+    <property>
+        <name>dfs.namenode.secondary.http-address</name>
+        <value>etc01:50090</value>
+    </property>
+    <!-- 默认块复制 -->
+    <property>
+        <name>dfs.replication</name>
+        <value>2</value>
+    </property>
+    <!-- namenode的http服务器地址和端口 -->
+    <property>
+        <name>dfs.namenode.http-address</name>
+        <value>etc01:50070</value>
+    </property>
+    <!-- datanode结点被指定要存储数据的本地文件系统路径 -->
+    <property>
+        <name>dfs.datanode.data.dir</name>
+        <value>file:///home/hadoopadmin/hadoop/data/dfs/dn</value>
+    </property>
+</configuration>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "mybatis-3-config.dtd" >
+<configuration>
+    <typeAliases>
+         <typeAlias type="java.util.Map" alias="map"/>
+         <typeAlias type="com.soft.controller.vo.User" alias="User"/>
+        <typeAlias type="com.soft.controller.vo.Topic" alias="Topic"/>
+        <typeAlias type="com.soft.controller.vo.Reply" alias="Reply"/>
+        <typeAlias alias="Tra" type="com.soft.controller.vo.Tra"/>
+
+        <typeAlias type="com.soft.controller.vo.Status" alias="Status"/>
+        <typeAlias type="com.soft.controller.vo.Page" alias="Page"/>
+    </typeAliases>
+
+</configuration>

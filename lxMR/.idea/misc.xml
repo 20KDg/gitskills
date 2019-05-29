@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectResources">
+    <resource url="-//mybatis.org//DTD Config 3.0//EN" location="E:/中软学习资料全/mybatis/MybatisPPT/mybatis-3-config.dtd" />
+    <resource url="-//mybatis.org//DTD Mapper 3.0//EN" location="E:/中软学习资料全/mybatis/MybatisPPT/mybatis-3-mapper.dtd" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

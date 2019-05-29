@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <!-- Hadoop文件系统依赖的基础配置 -->
+    <property>
+        <name>hadoop.tmp.dir</name>
+        <value>/home/hadoopadmin/hadoop/data</value>
+    </property>
+    <!-- NameNode结点的URI(包括协议、主机名称、端口号) -->
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://etc01:8020</value>
+    </property>
+</configuration>
